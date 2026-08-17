@@ -1,0 +1,47 @@
+“The continuous photometric and distance-layer realisation of this Clock, including magnification bias μlens, isotropic weight Wiso, and the integrated χ(z), dL(z), lives in the companion repository:
+https://github.com/TheAstrographer/JCR-Kerr-Gordon_Lensing-Metric_Starter-Pack”
+
+Retaining the Dual Architecture  
+Mathematical-Numerical Precision and Lensing-Photometric Grounding
+
+The Strictly Mathematical / Numerical Layer  
+
+This layer is defined by exact discrete relations and high-precision continuous realisations:
+
+Tick lattice: \(\varepsilon = 10^{-9}\), \(N_{\rm today} = 10^{9}\)
+\(\chi_{\rm micro} = \varepsilon N\), \(a(N) = \exp(\chi_{\rm micro})\), \(z(N) = 1/a(N) - 1\)
+Angular bridge \(\psi = 0.1503378808\), phase slip \(\Delta\phi_{\rm torque} = 1.72113420759\)
+Exact identity \(\sin(\Delta\phi_{\rm torque}) = \cos\psi\)
+Torque amplitude locked at \(3.170\) km s\(^{-1}\) Mpc\(^{-1}\)
+Machine-precision \(H_{\rm eff}(0) = 73.170000\)
+Exact mapping of every tick \(N\) onto the model redshift \(z(N)\)
+Rapidly decaying suppression that leaves high-\(z\) expansion nearly untouched
+
+This layer lives in pure numerical precision. Every identity closes to machine accuracy. It supplies the kinematic skeleton and the local \(H_0\) target.
+
+2. The Lensing-Photometric Layer  
+(Kerr–Gordon Lensing Metric Starter Pack)
+
+This layer is grounded in the observational and geometric consequences of light propagation:
+
+Isotropic conformal weight \(W_{\rm iso}(\beta,z)\) with \(\beta = 0.05\)
+Explicit magnification bias  
+  \[
+  \mu_{\rm lens}(z) = 1 + 0.05\,\frac{z}{1+z}
+  \]
+Comoving and luminosity distances obtained by integrating \(c/H_{\rm eff}(z)\)
+Sachs equation modified by the vortex / torque stress-energy contribution \(\pi_{\mu\nu}\)
+Photometric bias that directly affects measured magnitudes and therefore the distance ladder and supernova Hubble diagram
+
+This layer is not an abstract numerical identity; it is the physical interface between the geometric torque and actual astronomical measurements—magnification, photometric shifts, and the way flux is recorded. It is the part that can be compared with real photometric catalogues and lensing statistics.
+
+Why Both Must Be Retained
+
+The mathematical-numerical layer guarantees internal coherence and the precise local value \(73.17\). Without it the model has no locked target and no discrete foundation.
+The lensing-photometric layer supplies the observable consequences. Without it the model cannot speak to magnitude-redshift data, selection biases, or the practical measurement of distances.
+
+One layer is the clockwork (exact ticks, phases, and torque amplitude). The other is the face of the clock (how light is magnified and photometrically registered). Removing either collapses the confrontation with data: pure mathematics without photometry cannot be observed; pure photometry without the numerical backbone loses the precise \(H_0\) lock and the controlled high-\(z\) decay.
+
+The rapidly decaying torque belongs to both: it is calculated with numerical precision in the mathematical layer and then inserted into the distance and magnification integrals of the photometric layer. The mapping \(N\to z(N)\) likewise remains exact in the mathematical layer while providing the redshift coordinate at which photometric quantities are evaluated.
+
+This dual structure is therefore not optional. It is the architecture that allows the Cosmological Clock to remain both a high-precision mathematical object and a lensing-photometric model capable of direct observational confrontation.
